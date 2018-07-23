@@ -1,13 +1,12 @@
 # Git Tricks - a Github and Git Reference
 
-### Set your default github user information
+### Set your default Github user information
 - use the same email that you have registered to Github
 - can be `--global` or `--local`
 
 `git config --global user.name <name>`
 `git config --global user.email <email>`
 
-Local:
 
 ### How to use Git with a proxy
 
@@ -19,7 +18,7 @@ Get:
 `git config --global --get http.proxy`
 
 Unset:
-`git config --global --unset http.proxy
+`git config --global --unset http.proxy`
 
 
 
