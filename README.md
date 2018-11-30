@@ -34,7 +34,7 @@ To checkout as your OS line endings (CRLF Windows, CR Unix) and commit as Unix
 
 
 #### Local
-Create a '.gitattributes' file and enter the setting you need for the repo.  You can also specify files/filetypes
+Create a `.gitattributes` file and enter the setting you need for the repo.  You can also specify files/filetypes
 - `* text=auto`
 - `* text eol=crlf`
 - `* text eol=lf`
