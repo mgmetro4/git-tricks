@@ -23,7 +23,7 @@ Unset: <br>
 `git config --global --unset http.proxy`
 
 ### Line Endings
-# Global:
+#### Global:
 To commit and checkout line endings globally as you saved them:
 <br>
 `git config --global core.autocrlf false`
@@ -33,7 +33,7 @@ To checkout as your OS line endings (CRLF Windows, CR Unix) and commit as Unix
 `git config --global core.autocrlf true`
 
 
-# Local
+#### Local
 Create a '.gitattributes' file and enter the setting you need for the repo.  You can also specify files/filetypes
 - `* text=auto`
 - `* text eol=crlf`
