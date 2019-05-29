@@ -1,6 +1,13 @@
 # Git Tricks - a Github and Git Reference
 
-### Set your default Github user information
+# Contents
+[Git - Setup Default User Info](#git-user-info) <br>
+[Git - Setup Proxy](#git-proxy) <br>
+[Github MD - Code Blocks](#github-code) <br>
+
+<a id="git-user-info"></a>
+
+## Set your default Github user information in Git
 - use the same email that you have registered to Github
 - can be `--global` or `--local`
 
@@ -9,7 +16,9 @@
 `git config --global user.email <email>`
 
 
-### How to use Git with a proxy
+<a id="git-proxy"></a>
+
+## How to use Git with a proxy
 
 Set: <br>
 `git config --global http.proxy http://proxyuser:proxypwd@proxy.server.com:8080`
@@ -22,8 +31,8 @@ Get: <br>
 Unset: <br>
 `git config --global --unset http.proxy`
 
-### Line Endings
-#### Global:
+
+### Global:
 To commit and checkout line endings globally as you saved them:
 <br>
 `git config --global core.autocrlf false`
@@ -33,9 +42,44 @@ To checkout as your OS line endings (CRLF Windows, CR Unix) and commit as Unix
 `git config --global core.autocrlf true`
 
 
-#### Local
+### Local
 Create a `.gitattributes` file and enter the setting you need for the repo.  You can also specify files/filetypes
 - `* text=auto`
 - `* text eol=crlf`
 - `* text eol=lf`
 
+
+<a id="github-code"></a>
+
+## Github Markdown - Code Blocks
+
+- Inline code enclosed by tick marks  ( \` )
+
+  Example: `inline code`
+
+- Block code with triple tick marks ( \`\`\` )
+
+  Example:
+  ```
+  Block Code
+  Place tick marks on separate lines
+  ```
+
+- escape a tick mark in inline code by using 2 tick marks to enclose the code
+- escape a tick mark in block code by using 4 tick marks to enclose the code
+
+- you can specify programming language to get highlighted syntax by placing langugage name next to first \`\`\` marks
+
+  Python Example:
+  
+  ````
+  ```python
+  x = 10
+  def main()
+  ```
+  ````
+  
+  ```python
+  x = 10
+  def main()
+  ```
