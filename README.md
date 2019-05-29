@@ -70,6 +70,8 @@ Create a `.gitattributes` file and enter the setting you need for the repo.  You
 
 - you can specify programming language to get highlighted syntax by placing langugage name next to first \`\`\` marks
 
+  List of supported syntax: https://github.com/github/linguist/blob/master/vendor/README.md 
+
   Python Example:
   
   ````
