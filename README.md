@@ -4,9 +4,16 @@
 [Git - Setup Default User Info](#git-user-info) <br>
 [Git - Setup Proxy](#git-proxy) <br>
 [Github MD - Code Blocks](#github-code) <br>
+[Official Github .gitignore Templates](#gitignore) <br>
+
+
+
+<a id="gitignore"></a>
+## Official Github .gitignore Templates
+<a id="gitignore-link">https://github.com/github/gitignore</a>
+
 
 <a id="git-user-info"></a>
-
 ## Set your default Github user information in Git
 - use the same email that you have registered to Github
 - can be `--global` or `--local`
